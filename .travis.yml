@@ -1,2 +1,12 @@
+language: node_js
+node_js:
+  - "stable"
+cache:
+  directories:
+  - node_modules
+script:
+  - npm test
+  - npm run build
+
 notifications:
   slack: techproitservices:XsEF41X8AaQfMPg9I5XL10Gr
